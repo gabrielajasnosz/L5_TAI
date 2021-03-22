@@ -19,42 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b4e5723-8bf1-42d7-bfbd-14d982c12362" name="Default Changelist" comment="complex.ts">
-      <change afterPath="$PROJECT_DIR$/blog/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/e2e/protractor.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/e2e/src/app.po.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/e2e/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/app/app-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/app/app.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/app/components/navbar/navbar.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/app/components/navbar/navbar.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/app/components/navbar/navbar.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/app/components/navbar/navbar.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/tslint.json" afterDir="false" />
+    <list default="true" id="1b4e5723-8bf1-42d7-bfbd-14d982c12362" name="Default Changelist" comment="navbar">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/app/components/blog/blog.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/components/blog/blog.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/app/components/contact/contact.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/components/contact/contact.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/app/components/contact/contact.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/components/contact/contact.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/app/components/home/home.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/components/home/home.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/app/components/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/components/home/home.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1616398647179</updated>
       <workItem from="1616398648295" duration="4751000" />
+      <workItem from="1616403892788" duration="1420000" />
     </task>
     <task id="LOCAL-00001" summary="complex.ts">
       <created>1616400773174</created>
@@ -117,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616400773174</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="navbar">
+      <created>1616404109510</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616404109510</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,16 +114,18 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="complex.ts" />
-    <option name="LAST_COMMIT_MESSAGE" value="complex.ts" />
+    <MESSAGE value="navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="navbar" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1616400952412">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1616404132997">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1616400952412" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1616404132997" />
     <state x="563" y="314" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1616401803359">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

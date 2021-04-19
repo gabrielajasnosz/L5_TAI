@@ -19,10 +19,12 @@ export class DataService {
 
   }
 
-  getById(id:string) {
-    return this.http.get(this.url + '/api/posts/'+ id);
+  // tslint:disable-next-line:typedef
+  getById(id: string) {
+    return this.http.get(this.url + '/api/posts/' + id);
   }
 
+  // tslint:disable-next-line:typedef
   getByText(data: { text: unknown }) {
     return this.http.post(this.url + '/api/posts/', data);
   }
